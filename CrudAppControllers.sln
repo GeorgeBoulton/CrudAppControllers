@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAppControllers", "CrudAppControllers\CrudAppControllers.csproj", "{63E505B1-49C8-4D0C-ADD5-C22DB4FE69FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAppControllers.DAL", "CrudAppControllers.DAL\CrudAppControllers.DAL.csproj", "{1A49DAA2-4D52-43A7-B74B-E0E0020243A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAppControllers.Domain", "CrudAppControllers.Domain\CrudAppControllers.Domain.csproj", "{9465D1F1-3473-42E6-AD2A-8150A9719C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAppControllers.Config", "CrudAppControllers.Config\CrudAppControllers.Config.csproj", "{3A4CA520-6A24-47F6-91C2-7106E1022C0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{63E505B1-49C8-4D0C-ADD5-C22DB4FE69FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E505B1-49C8-4D0C-ADD5-C22DB4FE69FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E505B1-49C8-4D0C-ADD5-C22DB4FE69FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A49DAA2-4D52-43A7-B74B-E0E0020243A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A49DAA2-4D52-43A7-B74B-E0E0020243A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A49DAA2-4D52-43A7-B74B-E0E0020243A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A49DAA2-4D52-43A7-B74B-E0E0020243A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9465D1F1-3473-42E6-AD2A-8150A9719C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9465D1F1-3473-42E6-AD2A-8150A9719C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9465D1F1-3473-42E6-AD2A-8150A9719C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9465D1F1-3473-42E6-AD2A-8150A9719C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4CA520-6A24-47F6-91C2-7106E1022C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4CA520-6A24-47F6-91C2-7106E1022C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4CA520-6A24-47F6-91C2-7106E1022C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4CA520-6A24-47F6-91C2-7106E1022C0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
