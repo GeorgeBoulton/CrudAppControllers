@@ -12,7 +12,7 @@ public class RecipesContext : DbContext
     {
     }
     
-    public virtual DbSet<Recipe> Recipes { get; set; }
+    public virtual DbSet<RecipeDto> Recipes { get; set; }
 }
 
 public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<RecipesContext>

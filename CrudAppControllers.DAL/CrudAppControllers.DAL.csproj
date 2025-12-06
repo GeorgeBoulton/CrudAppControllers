@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CrudAppControllers.Config\CrudAppControllers.Config.csproj" />
+      <ProjectReference Include="..\CrudAppControllers.Domain\CrudAppControllers.Domain.csproj" />
     </ItemGroup>
 
 </Project>

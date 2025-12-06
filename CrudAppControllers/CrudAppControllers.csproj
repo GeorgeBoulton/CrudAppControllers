@@ -12,13 +12,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CrudAppControllers.Config\CrudAppControllers.Config.csproj" />
-    <ProjectReference Include="..\CrudAppControllers.DAL\CrudAppControllers.DAL.csproj" />
     <ProjectReference Include="..\CrudAppControllers.Domain\CrudAppControllers.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Components\Mappers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
